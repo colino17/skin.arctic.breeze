@@ -235,8 +235,8 @@
                                 <left>15</left>
                                 <right>40</right>
                                 <font>font_title_mini</font>
-                                <selectedcolor>main_fg_100</selectedcolor>
-                                <textcolor>main_fg_100</textcolor>
+                                <selectedcolor>main_fg_70</selectedcolor>
+                                <textcolor>main_fg_70</textcolor>
                                 <aligny>top</aligny>
                                 <align>left</align>
                                 <label>$VAR[Label_Title]</label>
@@ -245,13 +245,41 @@
                                 <top>30</top>
                                 <left>15</left>
                                 <right>40</right>
-                                <font>font_statusbar</font>
-                                <selectedcolor>main_fg_70</selectedcolor>
-                                <textcolor>main_fg_70</textcolor>
+                                <font>font_tiny_bold</font>
+                                <selectedcolor>ff34a853</selectedcolor>
+                                <textcolor>ff34a853</textcolor>
                                 <aligny>top</aligny>
                                 <align>left</align>
-                                <label>$VAR[Label_Premiered]$VAR[Label_List_Right,  •  ,]</label>
+                                <label>SEASON $INFO[$PARAM[container]ListItem.Season]  /  EPISODE $INFO[$PARAM[container]ListItem.Episode]</label>
+                                <visible>!String.IsEqual(ListItem.Overlay,OverlayUnwatched.png)|!ListItem.IsResumable</visible>
                             </control>
+                            
+                            <control type="label">
+                                <top>30</top>
+                                <left>15</left>
+                                <right>40</right>
+                                <font>font_tiny_bold</font>
+                                <selectedcolor>fffbbc05</selectedcolor>
+                                <textcolor>fffbbc05</textcolor>
+                                <aligny>top</aligny>
+                                <align>left</align>
+                                <label>SEASON $INFO[$PARAM[container]ListItem.Season]  /  EPISODE $INFO[$PARAM[container]ListItem.Episode]</label>
+                                <visible>ListItem.IsResumable</visible>
+                            </control>
+                            
+                            <control type="label">
+                                <top>30</top>
+                                <left>15</left>
+                                <right>40</right>
+                                <font>font_tiny_bold</font>
+                                <selectedcolor>ffea4335</selectedcolor>
+                                <textcolor>ffea4335</textcolor>
+                                <aligny>top</aligny>
+                                <align>left</align>
+                                <label>SEASON $INFO[$PARAM[container]ListItem.Season]  /  EPISODE $INFO[$PARAM[container]ListItem.Episode]</label>
+                                <visible>!String.IsEqual(ListItem.Overlay,OverlayWatched.png)</visible>
+                            </control>
+                            
                         </control>
                     </control>
                 </itemlayout>
