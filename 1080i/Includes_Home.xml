@@ -600,7 +600,7 @@
                     </control>
                     <control type="label">
                         <left>80</left>
-                        <font>font_topbar_small</font>
+                        <font>font_topbar_small2</font>
                         <align>left</align>
                         <aligny>center</aligny>
                         <textcolor>main_fg_100</textcolor>
@@ -618,7 +618,7 @@
                     </control>
                     <control type="label">
                         <left>80</left>
-                        <font>font_topbar</font>
+                        <font>font_topbar2</font>
                         <align>left</align>
                         <aligny>center</aligny>
                         <textcolor>main_fg_100</textcolor>
