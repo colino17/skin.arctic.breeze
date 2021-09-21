@@ -1504,7 +1504,7 @@
     </include>
 
     <include name="Flix_Object_Info_Plot">
-        <param name="height" default="120" />
+        <param name="height" default="240" />
         <param name="maxwidth" default="820" />
         <param name="width" default="auto" />
         <param name="shadowcolor" default="ff000000" />
