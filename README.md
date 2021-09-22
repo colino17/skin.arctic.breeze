@@ -8,6 +8,12 @@
 - Cleaned up banner list for episodes and added text coloration based on watched status
 - Added icons from Cosmic skin for Prime, Disney+, etc
 
+# To Do List
+- Center sidebar
+- Next Up text fix
+- Navigation fixes
+- Widget wraplists
+
 # License
 
 *This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
