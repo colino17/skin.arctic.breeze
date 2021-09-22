@@ -3,6 +3,7 @@
     <name>Single Movies</name>
     <match>all</match>
     <rule field="set" operator="doesnotcontain">
-        <value>"Collection"</value>
+        <value> Collection</value>
     </rule>
+    <order direction="ascending">title</order>
 </smartplaylist>
