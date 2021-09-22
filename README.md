@@ -6,6 +6,7 @@
 - Cleaned up Flix item subheader and replaced the "match" field with alternate information 
 - Removed studio info and ratings and increased Flix plot height
 - Cleaned up banner list for episodes and added text coloration based on watched status
+- Added icons from Cosmic skin for Prime, Disney+, etc
 
 # License
 
