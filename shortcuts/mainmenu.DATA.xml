@@ -5,7 +5,7 @@
         <label2>Custom item</label2>
         <defaultID>tvshows</defaultID>
         <icon>special://skin/extras/icons/tv.png</icon>
-        <action>noop</action>
+        <action>ActivateWindow(5610)</action>
     </shortcut>
     <shortcut>
         <label>MOVIES</label>
