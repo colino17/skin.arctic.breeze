@@ -42,9 +42,9 @@
 
     <!-- Properties -->
     <!-- Widget Aspect -->
+    <property property="widgetAspect">Landscape</property>
     <property property="widgetAspect">Poster</property>
     <property property="widgetAspect">Square</property>
-    <property property="widgetAspect">Landscape</property>
     <property property="widgetAspect">Banner</property>
     <property property="widgetAspect">Small Square</property>
     <property property="widgetAspect">Small Landscape</property>
@@ -357,6 +357,17 @@
     <!-- Widget Grouping -->
     <widget-groupings>
         <node label="$LOCALIZE[31183]">
+            <node label="Fave Widgets">
+                <shortcut widget="Next Up" label="NEXT UP" widgetTarget="video">plugin://script.embuary.helper/?info=getnextup&amp;type=tvshow</shortcut>
+                <shortcut widget="Dramas" label="DRAMAS" widgetTarget="video">library://video/jellyfintvshows61acd3965b28600c3b373d10eb1ee7df/all.xml/</shortcut>
+                <shortcut widget="Comedies" label="COMEDIES" widgetTarget="video">library://video/jellyfintvshows7527cfc25e673f8d3dc3c25d264960aa/all.xml/</shortcut>
+                <shortcut widget="Cartoons" label="CARTOONS" widgetTarget="video">library://video/jellyfintvshowsbdf38141c3a366eb1a2a8240d2e65e68/all.xml//</shortcut>
+                <shortcut widget="Holidays" label="HOLIDAYS" widgetTarget="video">library://video/jellyfintvshowsb64fe11addbc7e1c05b0e5f2e7e0e857/all.xml/</shortcut>
+                <shortcut widget="Movies" label="MOVIES" widgetTarget="video">special://skin/extras/playlists/SingleMovies.xsp</shortcut>
+                <shortcut widget="James Bond Collection" label="JAMES BOND COLLECTION" widgetTarget="video">videodb://movies/sets/1/?setid=1&amp;xsp=%7b%22group%22%3a%7b%22mixed%22%3afalse%2c%22type%22%3a%22sets%22%7d%2c%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22sorttitle%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22tag%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22Movies%22%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</shortcut>
+                <shortcut widget="Star Wars Collection" label="STAR WARS COLLECTION" widgetTarget="video">videodb://movies/sets/15/?setid=15&amp;xsp=%7b%22group%22%3a%7b%22mixed%22%3afalse%2c%22type%22%3a%22sets%22%7d%2c%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22sorttitle%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22tag%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22Movies%22%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</shortcut>
+                <shortcut widget="Sherlock Holmes Collection" label="SHERLOCK HOLMES COLLECTION" widgetTarget="video">videodb://movies/sets/14/?setid=14&amp;xsp=%7b%22group%22%3a%7b%22mixed%22%3afalse%2c%22type%22%3a%22sets%22%7d%2c%22order%22%3a%7b%22direction%22%3a%22ascending%22%2c%22ignorefolders%22%3a0%2c%22method%22%3a%22sorttitle%22%7d%2c%22rules%22%3a%7b%22and%22%3a%5b%7b%22field%22%3a%22tag%22%2c%22operator%22%3a%22is%22%2c%22value%22%3a%5b%22Movies%22%5d%7d%5d%7d%2c%22type%22%3a%22movies%22%7d</shortcut>
+            </node>
             <node label="$LOCALIZE[342]">
                 <shortcut widget="NewMovies" label="$LOCALIZE[31185]" icon="DefaultRecentlyAddedMovies.png" widgetTarget="video">special://skin/extras/playlists/NewMovies.xsp</shortcut>
                 <shortcut widget="RecentMovies" label="$LOCALIZE[31190]" icon="DefaultMusicRecentlyPlayed.png" widgetTarget="video">special://skin/extras/playlists/RecentMovies.xsp</shortcut>
