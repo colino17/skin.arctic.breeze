@@ -7,9 +7,13 @@
 - Removed studio info and ratings and increased Flix plot height
 - Cleaned up banner list for episodes and added text coloration based on watched status
 - Added icons from Cosmic skin for Prime, Disney+, etc
+- Centered Flix sidebar and allowed wrap "onup"
+- Added custom playlist called SingleMovies.xsp (all movies NOT in a set)
 
 # To Do List
-- Center sidebar
+- Default skin shortcuts
+- Default settings
+- Playlists
 - Next Up text fix
 - Navigation fixes
 - Widget wraplists
