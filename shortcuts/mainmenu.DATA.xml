@@ -12,7 +12,7 @@
         <label2>Custom item</label2>
         <defaultID>movies</defaultID>
         <icon>special://skin/extras/icons/film.png</icon>
-        <action>noop</action>
+        <action>SetFocus(13101)</action>
     </shortcut>
     <shortcut>
         <label>SPORTS</label>
