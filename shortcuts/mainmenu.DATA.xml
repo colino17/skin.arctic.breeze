@@ -27,10 +27,6 @@
         <defaultID>livetv</defaultID>
         <icon>special://skin/extras/icons/livetv.png</icon>
         <action>StartAndroidActivity("ar.tvplayer.tv")</action>
-            <!--
-        <action>ActivateWindow(TVChannels)</action>
--->
-        <visible>PVR.HasTVChannels</visible>
     </shortcut>
     <shortcut>
         <label>YOUTUBE</label>
