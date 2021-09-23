@@ -1,6 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
     <shortcut>
+        <label>SHOWS</label>
+        <label2>Custom item</label2>
+        <defaultID>tvshows</defaultID>
+        <icon>special://skin/extras/icons/tv.png</icon>
+        <action>noop</action>
+    </shortcut>
+    <shortcut>
+        <label>MOVIES</label>
+        <label2>Custom item</label2>
+        <defaultID>movies</defaultID>
+        <icon>special://skin/extras/icons/film.png</icon>
+        <action>noop</action>
+    </shortcut>
+    <shortcut>
+        <label>SPORTS</label>
+        <label2>Custom item</label2>
+        <defaultID>sports</defaultID>
+        <icon>special://skin/extras/icons/basketball.png</icon>
+        <action>noop</action>
+    </shortcut>
+    <shortcut>
+        <label>LIVE TV</label>
+        <label2>Custom item</label2>
+        <defaultID>livetv</defaultID>
+        <icon>special://skin/extras/icons/livetv.png</icon>
+        <action>ActivateWindow(TVChannels)</action>
+        <visible>PVR.HasTVChannels</visible>
+    </shortcut>
+    <shortcut>
+        <label>YOUTUBE</label>
+        <label2>Custom item</label2>
+        <defaultID>youtube</defaultID>
+        <icon>special://skin/extras/icons/youtube.png</icon>
+        <action>StartAndroidActivity("com.google.android.youtube.tv")</action>
+    </shortcut>
+    <shortcut>
+        <label>NETFLIX</label>
+        <label2>Custom item</label2>
+        <defaultID>netflix</defaultID>
+        <icon>special://skin/extras/icons/netflix3.png</icon>
+        <action>StartAndroidActivity("com.netflix.ninja")</action>
+    </shortcut>
+    <shortcut>
+        <label>PRIME VIDEO</label>
+        <label2>Custom item</label2>
+        <defaultID>primevideo</defaultID>
+        <icon>special://skin/extras/icons/prime.png</icon>
+        <action>StartAndroidActivity("com.amazon.amazonvideo.livingroom")</action>
+    </shortcut>
+    <shortcut>
+        <label>DISNEY PLUS</label>
+        <label2>Custom item</label2>
+        <defaultID>disneyplus</defaultID>
+        <icon>special://skin/extras/icons/disney.png</icon>
+        <action>StartAndroidActivity("com.disney.disneyplus")</action>
+    </shortcut>
+    <shortcut>
+        <label>SETTINGS</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>settings</defaultID>
+        <icon>special://skin/extras/icons/settings.png</icon>
+        <action>ActivateWindow(Settings)</action>
+    </shortcut>
+    <!-- ORIGINAL
+    <shortcut>
         <label>20342</label>
         <label2>Common Shortcut</label2>
         <defaultID>movies</defaultID>
@@ -71,4 +136,5 @@
         <icon>special://skin/extras/icons/power.png</icon>
         <action>Quit()</action>
     </shortcut>
+-->
 </shortcuts>
