@@ -3,14 +3,14 @@
     <shortcut>
         <label>SHOWS</label>
         <label2>Custom item</label2>
-        <defaultID>tvshows</defaultID>
+        <defaultID>shows</defaultID>
         <icon>special://skin/extras/icons/tv.png</icon>
         <action>noop</action>
     </shortcut>
     <shortcut>
         <label>MOVIES</label>
         <label2>Custom item</label2>
-        <defaultID>movies</defaultID>
+        <defaultID>films</defaultID>
         <icon>special://skin/extras/icons/film.png</icon>
         <action>noop</action>
     </shortcut>
@@ -24,7 +24,7 @@
     <shortcut>
         <label>LIVE TV</label>
         <label2>Custom item</label2>
-        <defaultID>livetv</defaultID>
+        <defaultID>live</defaultID>
         <icon>special://skin/extras/icons/livetv.png</icon>
         <action>StartAndroidActivity("ar.tvplayer.tv")</action>
     </shortcut>
@@ -59,7 +59,7 @@
     <shortcut>
         <label>SETTINGS</label>
         <label2>Common Shortcut</label2>
-        <defaultID>settings</defaultID>
+        <defaultID>setting</defaultID>
         <icon>special://skin/extras/icons/settings.png</icon>
         <action>ActivateWindow(Settings)</action>
     </shortcut>
