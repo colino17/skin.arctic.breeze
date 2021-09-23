@@ -561,11 +561,11 @@
                 <onright condition="!String.IsEqual(Container(9989).ListItem.Property(list),Settings) + !String.IsEqual(Container(9989).ListItem.Property(list),Weather)">3000</onright>
                 <onright condition="String.IsEqual(Container(9989).ListItem.Property(list),Settings)">5000</onright>
                 <onright condition="String.IsEqual(Container(9989).ListItem.Property(list),Weather)">6000</onright>
-                <top>293</top>
+                <top>190</top>
                 <left>62</left>
                 <width>714</width>
                 <height>787</height>
-                <onup>303</onup>
+                <onup>301</onup>
                 <orientation>vertical</orientation>
                 <itemlayout width="714" height="item_list_height" condition="!Skin.HasSetting(HomeIcons) + !Skin.HasSetting(VerticalIconsOnly)">
                     <control type="label">
