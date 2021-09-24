@@ -17,6 +17,7 @@
 - Next Up text fix
 - Navigation fixes
 - Widget wraplists
+- Tweak up next dialogs
 
 # License
 
