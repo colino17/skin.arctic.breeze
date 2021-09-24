@@ -8,12 +8,15 @@
 - Cleaned up banner list for episodes and added text coloration based on watched status
 - Added icons from Cosmic skin for Prime, Disney+, etc
 - Centered Flix sidebar and allowed wrap "onup"
+- Created categories for fave widgets
 - Added custom playlist called SingleMovies.xsp (all movies NOT in a set)
+- Added custom playlists for various movie sets
+- Customized default skin shortcuts
 
 # To Do List
-- Default skin shortcuts
+- Default skin widgets
 - Default widgetAspect to Landscape
-- Default settings
+- Default skin settings
 - Playlists
 - Next Up text fix
 - Navigation fixes
