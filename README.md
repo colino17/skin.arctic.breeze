@@ -12,6 +12,7 @@
 
 # To Do List
 - Default skin shortcuts
+- Default widgetAspect to Landscape
 - Default settings
 - Playlists
 - Next Up text fix
