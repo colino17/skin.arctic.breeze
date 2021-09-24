@@ -17,6 +17,7 @@
 - Next Up text fix
 - Navigation fixes
 - Widget wraplists
+- Increase number of widgets allowed
 
 # License
 
