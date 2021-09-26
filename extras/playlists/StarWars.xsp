@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+    <name>Star Wars Collection</name>
+    <match>all</match>
+    <rule field="set" operator="is">
+        <value>Star Wars Collection</value>
+    </rule>
+    <order direction="ascending">sorttitle</order>
+</smartplaylist>
