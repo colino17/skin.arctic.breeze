@@ -12,6 +12,7 @@
 - Added custom playlist called SingleMovies.xsp (all movies NOT in a set)
 - Added custom playlists for various movie sets
 - Customized default skin shortcuts
+- Increase number of widgets allowed
 
 # To Do List
 - Default skin widgets
@@ -21,7 +22,7 @@
 - Next Up text fix
 - Navigation fixes
 - Widget wraplists
-- Increase number of widgets allowed
+- Tweak up next dialogs
 
 # License
 
