@@ -9,6 +9,7 @@
 - Added icons from Cosmic skin for Prime, Disney+, etc
 - Centered Flix sidebar and allowed wrap "onup"
 - Added custom playlist called SingleMovies.xsp (all movies NOT in a set)
+- Fix widget length limitations
 
 # To Do List
 - Default skin shortcuts
