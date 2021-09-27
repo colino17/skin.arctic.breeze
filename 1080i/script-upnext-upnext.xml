@@ -8,13 +8,13 @@
         <control type="group">
             <control type="image">
                 <height>300</height>
-                <top>0</top>
+                <top>-40</top>
                 <texture flipy="true">common/osd-dim.png</texture>
             </control>
             <control type="group">
                 <left>view_pad</left>
                 <right>view_pad</right>
-                <top>view_pad</top>
+                <top>40</top>
                 <height>163</height>
                 <!-- Image -->
                 <control type="group">
@@ -27,7 +27,7 @@
                         <bordersize>15</bordersize>
                         <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
                         <aspectratio scalediffuse="true">scale</aspectratio>
-                        <texture background="true" diffuse="diffuse/landscape-small-wall.png">$VAR[Image_UpNext]</texture>
+                        <texture background="true" diffuse="diffuse/landscape-small-wall.png">$INFO[Window.Property(thumb)]</texture>
                     </control>
                     <control type="progress" id="3014">
                         <height>8</height>
@@ -43,10 +43,11 @@
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
-                        <label>$ADDON[service.upnext 30037] [COLOR $VAR[ColorHighlight]]$INFO[Player.TimeRemaining(ss),,][/COLOR]...</label>
+                        <label>$ADDON[service.upnext 30037]...</label>
                         <textcolor>panel_fg_100</textcolor>
                         <visible>!Integer.IsGreater(Player.TimeRemaining,59)</visible>
                     </control>
+
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
@@ -54,6 +55,7 @@
                         <textcolor>panel_fg_100</textcolor>
                         <visible>Integer.IsGreater(Player.TimeRemaining,59)</visible>
                     </control>
+
                     <control type="grouplist">
                         <top>40</top>
                         <height>40</height>
@@ -81,18 +83,6 @@
                             <param name="textcolor" value="panel_fg_100" />
                             <param name="visible" value="true" />
                         </include>
-                        <include content="Object_Info_Line_Label">
-                            <param name="id" value="90004" />
-                            <param name="label" value="$INFO[Window.Property(year)]" />
-                            <param name="textcolor" value="panel_fg_100" />
-                            <param name="visible" value="true" />
-                        </include>
-                        <include content="Object_Info_Line_Label">
-                            <param name="id" value="90005" />
-                            <param name="label" value="$INFO[Window.Property(rating)]" />
-                            <param name="textcolor" value="panel_fg_100" />
-                            <param name="visible" value="true" />
-                        </include>
                     </control>
                     <control type="grouplist">
                         <left>-16</left>
@@ -117,10 +107,8 @@
                     </control>
                 </control>
 
-
             </control>
         </control>
 
-        
     </controls>
 </window>
