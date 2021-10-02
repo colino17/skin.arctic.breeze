@@ -13,11 +13,12 @@
 - Added custom playlists for various movie sets
 - Customized default skin shortcuts
 - Increase number of widgets allowed
+- Customized default skin settings (Startup.xml)
+- Customized default Kodi settings (Startup.xml)
 
 # To Do List
 - Default skin widgets
 - Default widgetAspect to Landscape
-- Default skin settings
 - Playlists
 - Next Up text fix
 - Navigation fixes
