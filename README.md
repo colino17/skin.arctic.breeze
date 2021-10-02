@@ -15,15 +15,13 @@
 - Increase number of widgets allowed
 - Customized default skin settings (Startup.xml)
 - Customized default Kodi settings (Startup.xml)
+- Tweak up next dialogs
 
 # To Do List
 - Default skin widgets
 - Default widgetAspect to Landscape
 - Playlists
-- Next Up text fix
 - Navigation fixes
-- Widget wraplists
-- Tweak up next dialogs
 
 # License
 
