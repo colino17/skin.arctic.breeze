@@ -5,21 +5,21 @@
         <label2>Custom item</label2>
         <defaultID>shows</defaultID>
         <icon>special://skin/extras/icons/tv.png</icon>
-        <action>noop</action>
+        <action>SetFocus(13101)</action>
     </shortcut>
     <shortcut>
         <label>MOVIES</label>
         <label2>Custom item</label2>
         <defaultID>films</defaultID>
         <icon>special://skin/extras/icons/film.png</icon>
-        <action>noop</action>
+        <action>SetFocus(23101)</action>
     </shortcut>
     <shortcut>
         <label>SPORTS</label>
         <label2>Custom item</label2>
         <defaultID>sports</defaultID>
         <icon>special://skin/extras/icons/basketball.png</icon>
-        <action>noop</action>
+        <action>SetFocus(33101)</action>
     </shortcut>
     <shortcut>
         <label>LIVE TV</label>
