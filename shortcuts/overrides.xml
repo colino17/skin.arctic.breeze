@@ -362,13 +362,13 @@
             </node>
             <node label="Fave Shows">
                 <shortcut widget="Next Up" label="NEXT UP" widgetTarget="video">plugin://script.embuary.helper/?info=getnextup&amp;type=tvshow</shortcut>
-                <shortcut widget="Dramas" label="DRAMAS" widgetTarget="video">library://video/jellyfintvshows61acd3965b28600c3b373d10eb1ee7df/all.xml/</shortcut>
-                <shortcut widget="Comedies" label="COMEDIES" widgetTarget="video">library://video/jellyfintvshows7527cfc25e673f8d3dc3c25d264960aa/all.xml/</shortcut>
-                <shortcut widget="Cartoons" label="CARTOONS" widgetTarget="video">library://video/jellyfintvshowsbdf38141c3a366eb1a2a8240d2e65e68/all.xml//</shortcut>
-                <shortcut widget="Holidays" label="HOLIDAYS" widgetTarget="video">library://video/jellyfintvshowsb64fe11addbc7e1c05b0e5f2e7e0e857/all.xml/</shortcut>
+                <shortcut widget="Dramas" label="DRAMAS" widgetTarget="video">special://skin/extras/playlists/TVDramas.xsp</shortcut>
+                <shortcut widget="Comedies" label="COMEDIES" widgetTarget="video">special://skin/extras/playlists/TVComedies.xsp</shortcut>
+                <shortcut widget="Cartoons" label="CARTOONS" widgetTarget="video">special://skin/extras/playlists/TVCartoons.xsp</shortcut>
+                <shortcut widget="Holidays" label="HOLIDAYS" widgetTarget="video">special://skin/extras/playlists/TVHolidays.xsp</shortcut>
             </node>
             <node label="Fave Sports">
-                <shortcut widget="Sports" label="SPORTS" widgetTarget="video">library://video/jellyfintvshows9eeb1e5fcfd290ffef511296d721745d/all.xml/</shortcut>
+                <shortcut widget="Sports" label="SPORTS" widgetTarget="video">special://skin/extras/playlists/TVSports.xsp</shortcut>
             </node>
             <node label="Fave Collections">
                 <shortcut widget="James Bond Collection" label="JAMES BOND COLLECTION" widgetTarget="video">special://skin/extras/playlists/JamesBond.xsp</shortcut>
@@ -400,7 +400,6 @@
                 <shortcut widget="MovieNodes" label="$LOCALIZE[31296]" icon="special://skin/extras/icons/title.png" widgetTarget="video">library://video/movies/</shortcut>
                 <shortcut widget="MovieGenres" label="$LOCALIZE[31257]" icon="DefaultGenre.png" widgetTarget="video">library://video/movies/genres.xml</shortcut>
                 <shortcut widget="MovieSets" label="$LOCALIZE[31260]" icon="DefaultSets.png" widgetTarget="video">videodb://movies/sets/</shortcut>
-                <shortcut widget="SingleMovies" label="SingleMovies" icon="DefaultMovies.png" widgetTarget="video">special://skin/extras/playlists/SingleMovies.xsp</shortcut>
             </node>
             <node label="$LOCALIZE[31301]">
                 <shortcut widget="NewTvShows" label="$LOCALIZE[31367]" icon="DefaultRecentlyAddedMovies.png" widgetTarget="video">special://skin/extras/playlists/NewShows.xsp</shortcut>
