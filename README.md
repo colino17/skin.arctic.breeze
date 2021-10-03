@@ -2,26 +2,20 @@
 *This is a  mod of Arctic Zephyr: Resurrection by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.*
 
 # Changes
-- Increased Flix sidebar font size
-- Cleaned up Flix item subheader and replaced the "match" field with alternate information 
-- Removed studio info and ratings and increased Flix plot height
-- Cleaned up banner list for episodes and added text coloration based on watched status
+- Tweaked Flix Header and Sidebar
+- Tweaked banner list and added text coloration based on watched status
+- Tweaked UP NEXT popups
 - Added icons from Cosmic skin for Prime, Disney+, etc
-- Centered Flix sidebar and allowed wrap "onup"
-- Created categories for fave widgets
-- Added custom playlist called SingleMovies.xsp (all movies NOT in a set)
-- Added custom playlists for various movie sets
-- Customized default skin shortcuts
-- Increase number of widgets allowed
-- Customized default skin settings (Startup.xml)
-- Customized default Kodi settings (Startup.xml)
-- Tweak up next dialogs
+- Added custom playlists 
+- Added custom widget nodes
+- Increased number of widgets allowed
+- Customized default skin settings and default skin shortcuts
+- Customized default Kodi settings
 
 # To Do List
-- Default skin widgets
-- Default widgetAspect to Landscape
-- Playlists
-- Navigation fixes
+- Customize default widgets
+- Set widgetAspect to Landscape by default
+- Customize navigation so that the sidebar is only reactivated on back and not on left or down
 
 # License
 
