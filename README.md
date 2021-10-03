@@ -11,10 +11,10 @@
 - Increased number of widgets allowed
 - Customized default skin settings and default skin shortcuts
 - Customized default Kodi settings
+- Set widgetAspect to Landscape by default
 
 # To Do List
 - Customize default widgets
-- Set widgetAspect to Landscape by default
 - Customize navigation so that the sidebar is only reactivated on back and not on left or down
 
 # License
