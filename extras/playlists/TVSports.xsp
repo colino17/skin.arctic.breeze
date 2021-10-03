@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="tvshows">
+    <name>SPORTS</name>
+    <match>all</match>
+    <rule field="Tag" operator="is">
+        <value>Sports</value>
+    </rule>
+    <order direction="ascending">sorttitle</order>
+</smartplaylist>
