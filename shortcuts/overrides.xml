@@ -359,6 +359,23 @@
         <node label="$LOCALIZE[31183]">
             <node label="Fave Movies">
                 <shortcut widget="Movies" label="MOVIES" widgetTarget="video">special://skin/extras/playlists/SingleMovies.xsp</shortcut>
+                <shortcut widget="Star Wars Collection" label="STAR WARS COLLECTION" widgetTarget="video">special://skin/extras/playlists/StarWars.xsp</shortcut>
+                <shortcut widget="Harry Potter Collection" label="HARRY POTTER COLLECTION" widgetTarget="video">special://skin/extras/playlists/HarryPotter.xsp</shortcut>
+                <shortcut widget="Fast and Furious Collection" label="FAST AND FURIOUS COLLECTION" widgetTarget="video">special://skin/extras/playlists/Furious.xsp</shortcut>
+                <shortcut widget="Jurassic Park Collection" label="JURASSIC PARK COLLECTION" widgetTarget="video">special://skin/extras/playlists/JurassicPark.xsp</shortcut>
+                <shortcut widget="Indiana Jones Collection" label="INDIANA JONES COLLECTION" widgetTarget="video">special://skin/extras/playlists/IndianaJones.xsp</shortcut>
+                <shortcut widget="Mummy Collection" label="MUMMY COLLECTION" widgetTarget="video">special://skin/extras/playlists/Mummy.xsp</shortcut>
+                <shortcut widget="Tomb Raider Collection" label="TOMB RAIDER COLLECTION" widgetTarget="video">special://skin/extras/playlists/TombRaider.xsp</shortcut>
+                <shortcut widget="James Bond Collection" label="JAMES BOND COLLECTION" widgetTarget="video">special://skin/extras/playlists/JamesBond.xsp</shortcut>
+                <shortcut widget="Batman Collection" label="BATMAN COLLECTION" widgetTarget="video">special://skin/extras/playlists/Batman.xsp</shortcut>
+                <shortcut widget="Godfather Collection" label="GODFATHER COLLECTION" widgetTarget="video">special://skin/extras/playlists/Godfather.xsp</shortcut>
+                <shortcut widget="Blade Runner Collection" label="BLADE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/BladeRunner.xsp</shortcut>
+                <shortcut widget="Divergent Collection" label="DIVERGENT COLLECTION" widgetTarget="video">special://skin/extras/playlists/Divergent.xsp</shortcut>
+                <shortcut widget="Maze Runner Collection" label="MAZE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/MazeRunner.xsp</shortcut>
+                <shortcut widget="Sherlock Holmes Collection" label="SHERLOCK HOLMES COLLECTION" widgetTarget="video">special://skin/extras/playlists/Sherlock.xsp</shortcut>
+                <shortcut widget="Pitch Perfect Collection" label="PITCH PERFECT COLLECTION" widgetTarget="video">special://skin/extras/playlists/PitchPerfect.xsp</shortcut>
+                <shortcut widget="Mighty Ducks Collection" label="MIGHTY DUCKS COLLECTION" widgetTarget="video">special://skin/extras/playlists/MightyDucks.xsp</shortcut>
+                <shortcut widget="Lord of the Rings Collection" label="LORD OF THE RINGS COLLECTION" widgetTarget="video">special://skin/extras/playlists/LOTR.xsp</shortcut>
             </node>
             <node label="Fave Shows">
                 <shortcut widget="Next Up" label="NEXT UP" widgetTarget="video">plugin://script.embuary.helper/?info=getnextup&amp;type=tvshow</shortcut>
@@ -369,26 +386,7 @@
             </node>
             <node label="Fave Sports">
                 <shortcut widget="Sports" label="SPORTS" widgetTarget="video">special://skin/extras/playlists/TVSports.xsp</shortcut>
-            </node>
-            <node label="Fave Collections">
-                <shortcut widget="James Bond Collection" label="JAMES BOND COLLECTION" widgetTarget="video">special://skin/extras/playlists/JamesBond.xsp</shortcut>
-                <shortcut widget="Star Wars Collection" label="STAR WARS COLLECTION" widgetTarget="video">special://skin/extras/playlists/StarWars.xsp</shortcut>
-                <shortcut widget="Blade Runner Collection" label="BLADE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/BladeRunner.xsp</shortcut>
-                <shortcut widget="Fast and Furious Collection" label="FAST AND FURIOUS COLLECTION" widgetTarget="video">special://skin/extras/playlists/Furious.xsp</shortcut>
-                <shortcut widget="Batman Collection" label="BATMAN COLLECTION" widgetTarget="video">special://skin/extras/playlists/Batman.xsp</shortcut>
-                <shortcut widget="Divergent Collection" label="DIVERGENT COLLECTION" widgetTarget="video">special://skin/extras/playlists/Divergent.xsp</shortcut>
-                <shortcut widget="Godfather Collection" label="GODFATHER COLLECTION" widgetTarget="video">special://skin/extras/playlists/Godfather.xsp</shortcut>
-                <shortcut widget="Harry Potter Collection" label="HARRY POTTER COLLECTION" widgetTarget="video">special://skin/extras/playlists/HarryPotter.xsp</shortcut>
-                <shortcut widget="Indiana Jones Collection" label="INDIANA JONES COLLECTION" widgetTarget="video">special://skin/extras/playlists/IndianaJones.xsp</shortcut>
-                <shortcut widget="Jurassic Park Collection" label="JURASSIC PARK COLLECTION" widgetTarget="video">special://skin/extras/playlists/JurassicPark.xsp</shortcut>
-                <shortcut widget="Lord of the Rings Collection" label="LORD OF THE RINGS COLLECTION" widgetTarget="video">special://skin/extras/playlists/LOTR.xsp</shortcut>
-                <shortcut widget="Maze Runner Collection" label="MAZE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/MazeRunner.xsp</shortcut>
-                <shortcut widget="Pitch Perfect Collection" label="PITCH PERFECT COLLECTION" widgetTarget="video">special://skin/extras/playlists/PitchPerfect.xsp</shortcut>
-                <shortcut widget="Tomb Raider Collection" label="TOMB RAIDER COLLECTION" widgetTarget="video">special://skin/extras/playlists/TombRaider.xsp</shortcut>
-                <shortcut widget="Mighty Ducks Collection" label="MIGHTY DUCKS COLLECTION" widgetTarget="video">special://skin/extras/playlists/MightyDucks.xsp</shortcut>
-                <shortcut widget="Sherlock Holmes Collection" label="SHERLOCK HOLMES COLLECTION" widgetTarget="video">special://skin/extras/playlists/Sherlock.xsp</shortcut>
-                <shortcut widget="Mummy Collection" label="MUMMY COLLECTION" widgetTarget="video">special://skin/extras/playlists/Mummy.xsp</shortcut>
-            </node>     
+            </node>    
             <node label="$LOCALIZE[342]">
                 <shortcut widget="NewMovies" label="$LOCALIZE[31185]" icon="DefaultRecentlyAddedMovies.png" widgetTarget="video">special://skin/extras/playlists/NewMovies.xsp</shortcut>
                 <shortcut widget="RecentMovies" label="$LOCALIZE[31190]" icon="DefaultMusicRecentlyPlayed.png" widgetTarget="video">special://skin/extras/playlists/RecentMovies.xsp</shortcut>
