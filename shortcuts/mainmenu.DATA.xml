@@ -26,7 +26,7 @@
         <label2>Custom item</label2>
         <defaultID>live</defaultID>
         <icon>special://skin/extras/icons/livetv.png</icon>
-        <action>StartAndroidActivity("ar.tvplayer.tv")</action>
+        <action>ActivateWindow(TVGuide)</action>
     </shortcut>
     <shortcut>
         <label>YOUTUBE</label>

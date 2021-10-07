@@ -16,6 +16,7 @@
                 <include>View_Group</include>
                 <control type="group">
                     <include condition="Skin.HasSetting(PVRGuide.Info)">View_PVR_Guide_Top</include>
+                    <!-- REMOVE CATEGORIES
                     <control type="panel" id="11">
                         <height>item_list_height</height>
                         <orientation>horizontal</orientation>
@@ -40,6 +41,7 @@
                             </control>
                         </focusedlayout>
                     </control>
+                    -->
                     <include condition="!Skin.HasSetting(PVRGuide.DisableSlimMode)">View_PVR_Guide_List</include>
                     <include condition="Skin.HasSetting(PVRGuide.DisableSlimMode)">View_PVR_Guide_Icon</include>
                 </control>
