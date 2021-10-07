@@ -22,7 +22,7 @@
     </variable>
 
     <variable name="Label_PVRGuide_SubTitle">
-        <value>$INFO[ListItem.StartTime,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR=main_fg_100]  -  ,[/COLOR]]$VAR[Label_SubTitle,  |  ]</value>
+        <value>$INFO[ListItem.StartTime,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.EndTime,[COLOR=main_fg_100]  -  ,[/COLOR]]</value>
     </variable>
 
     <variable name="Label_PVRGuide_ChannelNumber">
