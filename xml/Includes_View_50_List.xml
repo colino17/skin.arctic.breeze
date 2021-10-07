@@ -950,37 +950,13 @@
                 <visible>!$PARAM[sublabel]</visible>
             </control>
             <control type="label" id="1">
-                <left>20</left>
+                <left>35</left>
                 <width>481</width>
-                <centertop>33%</centertop>
+                <centertop>52%</centertop>
                 <textcolor>$PARAM[fgcolor]</textcolor>
                 <textoffsetx>0</textoffsetx>
-                <font>font_tiny_bold</font>
-                <label>$INFO[ListItem.Label]</label>
-                <visible>$PARAM[visible]</visible>
-                <visible>$PARAM[sublabel]</visible>
-            </control>
-            <control type="label" id="1">
-                <left>20</left>
-                <width>481</width>
-                <centerbottom>33%</centerbottom>
-                <textcolor>$PARAM[fgcolor]</textcolor>
-                <textoffsetx>0</textoffsetx>
-                <font>font_statusbar</font>
-                <label>$INFO[ListItem.Genre]</label>
-                <visible>!Skin.HasSetting(PVRGuide.StartEnd)</visible>
-                <visible>$PARAM[visible]</visible>
-                <visible>$PARAM[sublabel]</visible>
-            </control>
-            <control type="label" id="1">
-                <left>20</left>
-                <width>481</width>
-                <centerbottom>33%</centerbottom>
-                <textcolor>$PARAM[fgcolor]</textcolor>
-                <textoffsetx>0</textoffsetx>
-                <font>font_statusbar</font>
-                <label>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ,]</label>
-                <visible>Skin.HasSetting(PVRGuide.StartEnd)</visible>
+                <font>font_small_bold</font>
+                <label>[UPPERCASE]$INFO[ListItem.Label][/UPPERCASE]</label>
                 <visible>$PARAM[visible]</visible>
                 <visible>$PARAM[sublabel]</visible>
             </control>
