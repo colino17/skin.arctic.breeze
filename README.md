@@ -1,6 +1,9 @@
 # Arctic: Breeze
 *This is a  mod of Arctic Zephyr: Resurrection by heppen. Arctic Zephyr 2 is a minimalistic skin created by jurialmunkey and moded to work with Kodi 19 Matrix by pkscout. The skin is designed to be simple so that the user can focus on their media content. In addition to the default light colour scheme, the skin also includes a number of darker variations.*
 
+# Caveat Emptor
+*This skin has very aggressive defaults. On first run it changes some default Kodi settings and is also designed specifically for use with Android TV devices with soft coded shortcuts and hard coded menu links to Android apps and settings.
+
 # Changes
 - Tweaked Flix Header and Sidebar
 - Tweaked banner list and added text coloration based on watched status
