@@ -1666,9 +1666,9 @@
     <include name="Items_Settings_Main">
         <content>
             <item id="4">
-                <label>[CAPITALIZE]$LOCALIZE[20077][/CAPITALIZE]</label>
-                <icon>special://skin/extras/icons/paintbrush.png</icon>
-                <onclick>ActivateWindow(SkinSettings)</onclick>
+                <label>Device Settings</label>
+                <icon>special://skin/extras/icons/android.png</icon>
+                <onclick>StartAndroidActivity("", "android.settings.SETTINGS")</onclick>
             </item>
             <item id="1">
                 <label>[CAPITALIZE]$LOCALIZE[14207][/CAPITALIZE]</label>
