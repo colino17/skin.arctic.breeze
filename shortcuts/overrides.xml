@@ -370,6 +370,7 @@
                 <shortcut widget="Batman Collection" label="BATMAN COLLECTION" widgetTarget="video">special://skin/extras/playlists/Batman.xsp</shortcut>
                 <shortcut widget="Godfather Collection" label="GODFATHER COLLECTION" widgetTarget="video">special://skin/extras/playlists/Godfather.xsp</shortcut>
                 <shortcut widget="Blade Runner Collection" label="BLADE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/BladeRunner.xsp</shortcut>
+                <shortcut widget="Hunger Games Collection" label="HUNGER GAMES COLLECTION" widgetTarget="video">special://skin/extras/playlists/HungerGames.xsp</shortcut>
                 <shortcut widget="Divergent Collection" label="DIVERGENT COLLECTION" widgetTarget="video">special://skin/extras/playlists/Divergent.xsp</shortcut>
                 <shortcut widget="Maze Runner Collection" label="MAZE RUNNER COLLECTION" widgetTarget="video">special://skin/extras/playlists/MazeRunner.xsp</shortcut>
                 <shortcut widget="Sherlock Holmes Collection" label="SHERLOCK HOLMES COLLECTION" widgetTarget="video">special://skin/extras/playlists/Sherlock.xsp</shortcut>
