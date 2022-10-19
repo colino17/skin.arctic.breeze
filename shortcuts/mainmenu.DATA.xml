@@ -19,14 +19,14 @@
         <label2>Custom item</label2>
         <defaultID>sports</defaultID>
         <icon>special://skin/extras/icons/basketball.png</icon>
-        <action>SetFocus(33101)</action>
+        <action>StartAndroidActivity("com.rogers.sportsnet.sportsnet")</action>
     </shortcut>
     <shortcut>
         <label>LIVE TV</label>
         <label2>Custom item</label2>
         <defaultID>live</defaultID>
         <icon>special://skin/extras/icons/livetv.png</icon>
-        <action>StartAndroidActivity("ar.tvplayer.tv")</action>
+        <action>ActivateWindow(TVGuide)</action>
     </shortcut>
     <shortcut>
         <label>YOUTUBE</label>
