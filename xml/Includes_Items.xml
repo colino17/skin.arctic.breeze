@@ -1668,7 +1668,7 @@
             <item id="4">
                 <label>Device Settings</label>
                 <icon>special://skin/extras/icons/android.png</icon>
-                <onclick>StartAndroidActivity("", "android.settings.SETTINGS")</onclick>
+                <onclick>StartAndroidActivity("com.aftvnews.loader.settings")</onclick>
             </item>
             <item id="1">
                 <label>[CAPITALIZE]$LOCALIZE[14207][/CAPITALIZE]</label>
