@@ -19,7 +19,7 @@
         <label2>Custom item</label2>
         <defaultID>sports</defaultID>
         <icon>special://skin/extras/icons/basketball.png</icon>
-        <action>StartAndroidActivity("com.rogers.sportsnet.sportsnet")</action>
+        <action>StartAndroidActivity("com.rogers.sportsnet.tv.firetv")</action>
     </shortcut>
     <shortcut>
         <label>LIVE TV</label>
